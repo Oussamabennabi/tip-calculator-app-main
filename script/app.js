@@ -75,7 +75,7 @@ resetBtnEl.addEventListener("click", function(){
 // FUNCTIONS
 function renderResult() {
   tipAmountEl.innerHTML = ((bill * (selectedTip / 100)) / numberOfpeople).toFixed(2)
-  totalAmountEl.innerHTML = (bill / numberOfpeople) +  Number(tipAmountEl.innerHTML)
+  totalAmountEl.innerHTML = ((bill / numberOfpeople) +  Number(tipAmountEl.innerHTML)).toFixed(2)
   
 }
 function resetToDefault() {

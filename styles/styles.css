@@ -26,6 +26,7 @@ body {
 }
 img.logo {
 	margin-bottom:5rem;
+	margin-top:5rem;
 }
 .calculator {
 	background: var(--white);
@@ -33,6 +34,8 @@ img.logo {
 	padding: 30px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	margin:0 1rem;
+	margin-bottom: 10rem;
 }
 .inputs{
 	width: 330px;
